@@ -1,5 +1,5 @@
 class SandTrap extends Square{
-  constructor(){
-    super()
+  constructor(number){
+    super(number)
   }
 }

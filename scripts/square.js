@@ -1,6 +1,6 @@
 class Square {
-  constructor() {
-    this.number = 0;
+  constructor(number) {
+    this.number = number;
  }
 
 
