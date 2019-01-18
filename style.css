@@ -1,0 +1,162 @@
+* { 
+  text-align: center;
+  box-sizing: border-box;
+}
+body {
+  color: snow;
+  font-family: 'Muli', sans-serif;
+  background-color: #7d7768;
+}
+
+.board {
+  font-family: 'Muli', sans-serif;
+  border: solid 10px #e8df9c;
+  background-color: #e8df9c;
+  grid-gap: 10px; 
+  display:  grid;
+  grid-template-areas:  
+            "One Two Thr Fou"
+            "Twe Thi Fot Fiv"
+            "Ele Sit Fit Six"
+            "Ten Nin Eig Sev";
+  height: 690px;
+  width: 690px;
+  margin: 10px auto;
+}
+
+.title {
+  color: snow;
+  font-family: 'Muli', sans-serif;
+  font-size: 30px;
+  font-style: italic;
+  margin: 10px auto 0px auto;
+}
+
+.onSquare {
+  border: 4px dashed #585449;
+}
+
+.square {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: snow;
+  height: 160px;
+  width: 160px;
+}
+
+.tileDisplayNum {
+  font-weight: 800;
+  font-size: 30px;
+  color: #585449;
+  padding: 5px;
+}
+
+.Five,
+.Nine,
+.Thirteen {
+  background-color: #eac761;
+}
+
+.One {
+  grid-area: One;
+  background-color: #92c09e;
+} 
+
+.Two {
+  grid-area: Two;
+} 
+
+.Three {
+  grid-area: Thr;
+} 
+
+.Four {
+  grid-area: Fou;
+}
+
+.Twelve {
+  grid-area: Twe;
+}
+
+.Thirteen {
+  grid-area: Thi;
+}
+
+.Five {
+  grid-area: Fiv;
+}
+
+.Eleven {
+  grid-area: Ele;
+}
+
+.Sixteen {
+  grid-area: Sit;
+  background-color: #f75e50;
+} 
+
+.Fifteen" {
+  grid-area: Fit;
+} 
+
+.Fourteen {
+  grid-area: Fot;
+} 
+
+.Six {
+  grid-area: Six;
+}
+
+.Ten {
+  grid-area: Ten;
+} 
+
+.Nine {
+  grid-area: Nin;
+} 
+
+.Eight {
+  grid-area: Eig;
+} 
+
+.Seven {
+  grid-area: Sev;
+}
+
+.rollBtn {
+  background-color: snow;
+  width: 160px;
+  height: 80px;
+  display: inline;
+}
+
+.rollBtnWord {
+  color: #585449;
+  font-family: 'Muli', sans-serif;
+  font-size: 30px;
+  font-style: italic;
+}
+
+
+.btnArea {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.dice {
+  margin-left: 10px;
+  height: 80px;
+  width: 80px;
+  background-color: snow;
+  display: inline;
+}
+
+.diceDisplayNum {
+  font-family: 'Muli', sans-serif;
+  color: #585449;
+  font-size: 30px;
+  font-weight: 800;
+}
